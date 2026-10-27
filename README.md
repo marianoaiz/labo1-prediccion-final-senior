@@ -13,7 +13,7 @@ Para cada recomendación se consideró si superó al baseline con varias semilla
 
 | Etapa del workflow | Decisión | Fuente |
 |---|---|---|
-| FE histórico | Ventana de **9 meses** con tendencia, `ratioavg` y `ratiomax` (original: 6 meses, sin ratios). Solo columnas numéricas para la historia. | #4 Grupo B (Morera): 9 meses le ganó a 6 meses en 10 de 10 semillas (p = 0,004), medido en 202107 |
+| FE histórico | Ventana de **9 meses** con tendencia, `ratioavg` y `ratiomax` (original: 6 meses, sin ratios). Solo columnas numéricas para la historia. | #4 Grupo B: 9 meses le ganó a 6 meses en 10 de 10 semillas (p = 0,004), medido en 202107 |
 | FE con Random Forest | Sin cambios: baseline 20/16/100/0,2 | #6 Grupos A y B: ninguna configuración superó al baseline |
 | FE intra-mes genético | No se usa | #7 Grupos A y B: la genética no supera a fórmulas al azar |
 | Canaritos | Se mantienen (sin ellos, con la ventana de 9 meses el dataset no entra en 128 GB) | Decisión propia |
