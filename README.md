@@ -17,7 +17,7 @@ Para cada recomendación se consideró si superó al baseline con varias semilla
 | FE con Random Forest | Sin cambios: baseline 20/16/100/0,2 | #6 Grupos A y B: ninguna configuración superó al baseline |
 | FE intra-mes genético | No se usa | #7 Grupos A y B: la genética no supera a fórmulas al azar |
 | Canaritos | Se mantienen (sin ellos, con la ventana de 9 meses el dataset no entra en 128 GB) | Decisión propia |
-| Training strategy | Sin cambios | #5: evidencia en el dataset Junior y recomendaciones contradictorias entre grupos |
+| Training strategy | Sin cambios | #5: evidencia en el dataset Junior y Decisión propia |
 | Predicción final | **Ensamble de 10 corridas** completas con distintas semillas primigenias, promediando rankings | #7 Grupos A y B: +2 a +6 M y menor varianza; satura entre 5 y 10 corridas |
 | Corte | **11.000 envíos**, decidido de antemano, sin mirar el leaderboard público | Coinciden #4, #6 y #7: meseta entre 11.000 y 12.000 en 202107 |
 
